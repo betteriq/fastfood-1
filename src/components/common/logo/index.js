@@ -5,7 +5,7 @@ import "./style.css";
 const index = () => {
   return (
     <div className="header_content_logo">
-      <p>logo</p>
+      <p>Logo</p>
     </div>
   );
 };
