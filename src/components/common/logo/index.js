@@ -4,8 +4,16 @@ import "./style.css";
 
 const index = () => {
   return (
-    <div className="header_content_logo">
-      <p>Logo</p>
+    <div className="logo">
+      <div>
+        <img src={logo} alt="logo" />
+        <span>
+          <b>Taste</b>
+        </span>
+      </div>
+      <p>
+        <b>Restaurant & BBQ</b>
+      </p>
     </div>
   );
 };
