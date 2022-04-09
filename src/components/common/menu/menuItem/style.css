@@ -1,41 +1,44 @@
-.item{
-    width: 150px;
-    padding: 0 0.8rem 0.8rem 0.8rem;
-    background-color: #fff;
-    border-radius: 30px;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
+.item {
+  width: 150px;
+  padding: 0 0.8rem 0.8rem 0.8rem;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
 }
-.item img{
-    margin-top: -3.5rem;
-    height: 130px;
-    object-fit: contain;
+.item img {
+  margin-top: -3.5rem;
+  height: 130px;
+  object-fit: contain;
 }
-.item_foot_desk{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.item_foot_desk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.item_head_desk p{
-    margin: 0;
-    margin-bottom: 0.5rem;
+.item_head_desk p {
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
-.item_head_desk{
-    text-align: left;
-    flex: 1;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
+.item_head_desk {
+  text-align: left;
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
-.head_desk_name{
-    font-weight: 600;
-    font-size: 0.9rem;
-    text-transform: capitalize;
-    flex: 1;
+.head_desk_name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  flex: 2;
 }
-.head_desk_info{
-    font-size: 0.8rem;
-    color: #a0a0a0a0;
+.head_desk_info {
+  font-size: 0.8rem;
+  color: #a0a0a0a0;
+}
+.foot_desk_price {
+  font-weight: 700;
 }
