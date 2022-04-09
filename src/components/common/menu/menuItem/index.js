@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonAddRemove from "../../buttunaddremove";
 import "./style.css";
 
 const MenuItem = ({ item }) => {
@@ -14,7 +15,7 @@ const MenuItem = ({ item }) => {
       </div>
       <div className="item_foot_desk">
         <span className="foot_desk_price">${price}</span>
-        <button>Add +</button>
+        <ButtonAddRemove quantity={0}/>
       </div>
     </div>
   );
