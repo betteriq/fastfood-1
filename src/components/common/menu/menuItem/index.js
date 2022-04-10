@@ -15,7 +15,7 @@ const MenuItem = ({ item }) => {
       </div>
       <div className="item_foot_desk">
         <span className="foot_desk_price">${price}</span>
-        <ButtonAddRemove quantity={0}/>
+        <ButtonAddRemove quantity={10}/>
       </div>
     </div>
   );

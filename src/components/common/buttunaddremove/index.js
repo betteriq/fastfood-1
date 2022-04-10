@@ -1,4 +1,6 @@
 import React from "react";
+import "./style.css";
+
 
 const ButtonAddRemove = ({ quantity, handleAddItem, handleRemoveItem }) => {
   return (
